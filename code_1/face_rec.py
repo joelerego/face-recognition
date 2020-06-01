@@ -27,6 +27,7 @@ def get_encoded_faces():
 
 def unknown_image_encoded(img):
     """
+    Add to the database
     encode a face given the file name
     """
     face = fr.load_image_file("faces/" + img)
